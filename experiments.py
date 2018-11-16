@@ -92,12 +92,12 @@ def _merge_dicts(d1, d2):
 
 for name, func_dataset, factor in [
         ('adult', load_adult, [0.5, 1, 2, 3, 4, 5]),
-        ('cover_type', load_cover_type, [1, 2, 3, 4, 5]),
-        ('diabetes', load_diabetes, [1]),
-        ('mammography', load_mammography, [1, 2, 3, 4, 5]),
-        ('oil', load_oil, [1, 2, 3, 4, 5]),
-        ('phoneme', load_phoneme, [1, 2]),
-        ('satimage', load_satimage, [1, 2, 3, 4 ,5])]:
+        ('cover_type', load_cover_type, [0.5, 1, 2, 3, 4, 5]),
+        ('diabetes', load_diabetes, [0.5, 1, 2, 3, 4, 5]),
+        ('mammography', load_mammography, [0.5, 1, 2, 3, 4, 5]),
+        ('oil', load_oil, [0.5, 1, 2, 3, 4, 5]),
+        ('phoneme', load_phoneme, [0.5, 1, 2, 3, 4, 5]),
+        ('satimage', load_satimage, [0.5, 1, 2, 3, 4 , 5])]:
     X, y = func_dataset()
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
