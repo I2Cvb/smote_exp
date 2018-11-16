@@ -72,11 +72,14 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
         y_pred = pipe_cv.predict_proba(X_test)
         test_score = roc_auc_score(y_test, y_pred[:, 1])
 
+        cv_results['cv_idx'].append(cv_idx)
+        cv_results['train_score'].append(train_score)
+        cv_results['test_score'].append(test_score)
         for k, v in param.items():
-            cv_results['cv_idx'].append(cv_idx)
-            cv_results[k].append(v)
-            cv_results['train_score'].append(train_score)
-            cv_results['test_score'].append(test_score)
+            if k == 'smote__sampling_strategy':
+                cv_results[k].append(multiplier)
+            else:
+                cv_results[k].append(v)
 
     return cv_results
 
