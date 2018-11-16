@@ -91,20 +91,20 @@ def _merge_dicts(d1, d2):
     return d1
 
 for name, func_dataset, factor in [
-        ('adult', load_adult, [0.5, 1, 2, 3, 4, 5]),
-        ('cover_type', load_cover_type, [0.5, 1, 2, 3, 4, 5]),
-        ('diabetes', load_diabetes, [0.5, 1, 2, 3, 4, 5]),
-        ('mammography', load_mammography, [0.5, 1, 2, 3, 4, 5]),
-        ('oil', load_oil, [0.5, 1, 2, 3, 4, 5]),
-        ('phoneme', load_phoneme, [0.5, 1, 2, 3, 4, 5]),
-        ('satimage', load_satimage, [0.5, 1, 2, 3, 4 , 5])]:
+        ('adult', load_adult, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('cover_type', load_cover_type, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('diabetes', load_diabetes, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('mammography', load_mammography, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('oil', load_oil, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('phoneme', load_phoneme, [0, 0.5, 1, 2, 3, 4, 5]),
+        ('satimage', load_satimage, [0, 0.5, 1, 2, 3, 4 , 5])]:
     X, y = func_dataset()
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
     param_grid = ParameterGrid(
         {'smote__sampling_strategy': np.array(factor)}
     )
-    cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=10, random_state=42)
+    cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=50, random_state=42)
 
     results = Parallel(n_jobs=-1)(
         delayed(_fit_score)(pipe, param_grid, X, y,
