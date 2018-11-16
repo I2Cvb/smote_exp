@@ -1,501 +1,501 @@
-,cv_idx,smote__sampling_strategy,train_score,test_score
-0,99,<function _fit_score.<locals>.resampling at 0x7f17cbeddd90>,1.0,0.925755193711398
-1,99,<function _fit_score.<locals>.resampling at 0x7f17cbedde18>,1.0,0.9230912153539891
-2,99,<function _fit_score.<locals>.resampling at 0x7f17cbeddea0>,1.0,0.9308100658465622
-3,99,<function _fit_score.<locals>.resampling at 0x7f17cbeddf28>,1.0,0.9330610994844571
-4,99,<function _fit_score.<locals>.resampling at 0x7f17cbee1048>,1.0,0.9428844877749988
-5,0,<function _fit_score.<locals>.resampling at 0x7f17cbf7a0d0>,1.0,0.9233577384584096
-6,0,<function _fit_score.<locals>.resampling at 0x7f17cbf7a158>,1.0,0.9454560707748627
-7,0,<function _fit_score.<locals>.resampling at 0x7f17cbf7a1e0>,1.0,0.9331482611348384
-8,0,<function _fit_score.<locals>.resampling at 0x7f17cbf7a268>,1.0,0.925875533862111
-9,0,<function _fit_score.<locals>.resampling at 0x7f17cbf7a2f0>,1.0,0.9386028065893837
-10,1,<function _fit_score.<locals>.resampling at 0x7f17cbf75598>,1.0,0.9234980679275981
-11,1,<function _fit_score.<locals>.resampling at 0x7f17cbf75620>,1.0,0.9373444173276387
-12,1,<function _fit_score.<locals>.resampling at 0x7f17cbf756a8>,1.0,0.93790370144397
-13,1,<function _fit_score.<locals>.resampling at 0x7f17cbf75730>,1.0,0.9348266219239373
-14,1,<function _fit_score.<locals>.resampling at 0x7f17cbf757b8>,1.0,0.9372040878584503
-15,2,<function _fit_score.<locals>.resampling at 0x7f17cbf75840>,1.0,0.9338473662802522
-16,2,<function _fit_score.<locals>.resampling at 0x7f17cbf758c8>,1.0,0.9295118974984747
-17,2,<function _fit_score.<locals>.resampling at 0x7f17cbf75950>,1.0,0.9422391702257473
-18,2,<function _fit_score.<locals>.resampling at 0x7f17cbf759d8>,1.0,0.9448962782184258
-19,2,<function _fit_score.<locals>.resampling at 0x7f17cbf75a60>,1.0,0.936784624771202
-20,3,<function _fit_score.<locals>.resampling at 0x7f17cbf752f0>,1.0,0.9250360992475086
-21,3,<function _fit_score.<locals>.resampling at 0x7f17cbf75378>,1.0,0.9211200935529795
-22,3,<function _fit_score.<locals>.resampling at 0x7f17cbf75400>,1.0,0.9141270083384176
-23,3,<function _fit_score.<locals>.resampling at 0x7f17cbf75488>,1.0,0.9163651616839537
-24,3,<function _fit_score.<locals>.resampling at 0x7f17cbf75510>,1.0,0.9195815537929631
-25,4,<function _fit_score.<locals>.resampling at 0x7f17cbfc7d08>,1.0,0.9307692307692308
-26,4,<function _fit_score.<locals>.resampling at 0x7f17cbfc7d90>,1.0,0.9204195804195805
-27,4,<function _fit_score.<locals>.resampling at 0x7f17cbfc7e18>,1.0,0.9309090909090909
-28,4,<function _fit_score.<locals>.resampling at 0x7f17cbfc7ea0>,1.0,0.933986013986014
-29,4,<function _fit_score.<locals>.resampling at 0x7f17cbfc7f28>,1.0,0.938041958041958
-30,5,<function _fit_score.<locals>.resampling at 0x7f17cbf8d7b8>,1.0,0.9306293706293707
-31,5,<function _fit_score.<locals>.resampling at 0x7f17cbf8d840>,1.0,0.9258741258741259
-32,5,<function _fit_score.<locals>.resampling at 0x7f17cbf8d8c8>,1.0,0.9325874125874125
-33,5,<function _fit_score.<locals>.resampling at 0x7f17cbf8d950>,1.0,0.9327272727272726
-34,5,<function _fit_score.<locals>.resampling at 0x7f17cbf8d9d8>,1.0,0.9391608391608393
-35,6,<function _fit_score.<locals>.resampling at 0x7f17cbf7f6a8>,1.0,0.9537062937062938
-36,6,<function _fit_score.<locals>.resampling at 0x7f17cbf7f730>,1.0,0.9478321678321677
-37,6,<function _fit_score.<locals>.resampling at 0x7f17cbf7f7b8>,1.0,0.9362237762237763
-38,6,<function _fit_score.<locals>.resampling at 0x7f17cbf7f840>,1.0,0.9469930069930069
-39,6,<function _fit_score.<locals>.resampling at 0x7f17cbf7f8c8>,1.0,0.9514685314685314
-40,7,<function _fit_score.<locals>.resampling at 0x7f17cbf7ae18>,1.0,0.9376963912000408
-41,7,<function _fit_score.<locals>.resampling at 0x7f17cbf7aea0>,1.0,0.9360114338216529
-42,7,<function _fit_score.<locals>.resampling at 0x7f17cbf7af28>,1.0,0.9455551018324742
-43,7,<function _fit_score.<locals>.resampling at 0x7f17cbf7f048>,1.0,0.9367173702210199
-44,7,<function _fit_score.<locals>.resampling at 0x7f17cbf7f0d0>,1.0,0.9334873156041039
-45,8,<function _fit_score.<locals>.resampling at 0x7f17cbf75048>,1.0,0.9462610382318412
-46,8,<function _fit_score.<locals>.resampling at 0x7f17cbf750d0>,1.0,0.9469603389311418
-47,8,<function _fit_score.<locals>.resampling at 0x7f17cbf75158>,1.0,0.9383956918993415
-48,8,<function _fit_score.<locals>.resampling at 0x7f17cbf751e0>,1.0,0.9396610688581492
-49,8,<function _fit_score.<locals>.resampling at 0x7f17cbf75268>,1.0,0.9403670052575163
-50,9,<function _fit_score.<locals>.resampling at 0x7f17cbf7f950>,1.0,0.9455551018324742
-51,9,<function _fit_score.<locals>.resampling at 0x7f17cbf7f9d8>,1.0,0.9499106732683376
-52,9,<function _fit_score.<locals>.resampling at 0x7f17cbf7fa60>,1.0,0.9496309529886173
-53,9,<function _fit_score.<locals>.resampling at 0x7f17cbf7fae8>,1.0,0.9449956612730337
-54,9,<function _fit_score.<locals>.resampling at 0x7f17cbf7fb70>,1.0,0.952155071206166
-55,10,<function _fit_score.<locals>.resampling at 0x7f17cbf75ae8>,1.0,0.9468547895057962
-56,10,<function _fit_score.<locals>.resampling at 0x7f17cbf75b70>,1.0,0.9465751474476306
-57,10,<function _fit_score.<locals>.resampling at 0x7f17cbf75bf8>,1.0,0.9462955053894652
-58,10,<function _fit_score.<locals>.resampling at 0x7f17cbf75c80>,1.0,0.9444773235712833
-59,10,<function _fit_score.<locals>.resampling at 0x7f17cbf75d08>,1.0,0.934407158836689
-60,11,<function _fit_score.<locals>.resampling at 0x7f17cbfc7c80>,1.0,0.9262955053894651
-61,11,<function _fit_score.<locals>.resampling at 0x7f17cbf7a378>,1.0,0.9239175310148464
-62,11,<function _fit_score.<locals>.resampling at 0x7f17cbf7a400>,1.0,0.944197173073012
-63,11,<function _fit_score.<locals>.resampling at 0x7f17cbf7a488>,1.0,0.936225340654871
-64,11,<function _fit_score.<locals>.resampling at 0x7f17cbf7a510>,1.0,0.937204596298556
-65,12,<function _fit_score.<locals>.resampling at 0x7f17cbf7a8c8>,1.0,0.9348266219239373
-66,12,<function _fit_score.<locals>.resampling at 0x7f17cbf7a950>,1.0,0.9205608094366484
-67,12,<function _fit_score.<locals>.resampling at 0x7f17cbf7a9d8>,1.0,0.9313300793166565
-68,12,<function _fit_score.<locals>.resampling at 0x7f17cbf7aa60>,1.0,0.9397213748220459
-69,12,<function _fit_score.<locals>.resampling at 0x7f17cbf7aae8>,1.0,0.9422391702257473
-70,13,<function _fit_score.<locals>.resampling at 0x7f17cbf7a598>,1.0,0.9366448037421192
-71,13,<function _fit_score.<locals>.resampling at 0x7f17cbf7fbf8>,1.0,0.93272879804759
-72,13,<function _fit_score.<locals>.resampling at 0x7f17cbf7fc80>,1.0,0.9275538946512101
-73,13,<function _fit_score.<locals>.resampling at 0x7f17cbf7fd08>,1.0,0.9509106162294081
-74,13,<function _fit_score.<locals>.resampling at 0x7f17cbf7fd90>,1.0,0.936225340654871
-75,14,<function _fit_score.<locals>.resampling at 0x7f17cbf236a8>,1.0,0.9506293706293706
-76,14,<function _fit_score.<locals>.resampling at 0x7f17cbf23730>,1.0,0.9397202797202798
-77,14,<function _fit_score.<locals>.resampling at 0x7f17cbf237b8>,1.0,0.9478321678321677
-78,14,<function _fit_score.<locals>.resampling at 0x7f17cbf23840>,1.0,0.9479720279720278
-79,14,<function _fit_score.<locals>.resampling at 0x7f17cbf238c8>,1.0,0.9555244755244756
-80,15,<function _fit_score.<locals>.resampling at 0x7f17cbf7f158>,1.0,0.9191608391608391
-81,15,<function _fit_score.<locals>.resampling at 0x7f17cbf7f1e0>,1.0,0.9316083916083915
-82,15,<function _fit_score.<locals>.resampling at 0x7f17cbf7f268>,1.0,0.9286713286713286
-83,15,<function _fit_score.<locals>.resampling at 0x7f17cbf7f2f0>,1.0,0.9262937062937062
-84,15,<function _fit_score.<locals>.resampling at 0x7f17cbf7f378>,1.0,0.935104895104895
-85,16,<function _fit_score.<locals>.resampling at 0x7f17cbf7a620>,1.0,0.9198601398601399
-86,16,<function _fit_score.<locals>.resampling at 0x7f17cbf7a6a8>,1.0,0.9102097902097902
-87,16,<function _fit_score.<locals>.resampling at 0x7f17cbf7a730>,1.0,0.9191608391608391
-88,16,<function _fit_score.<locals>.resampling at 0x7f17cbf7a7b8>,1.0,0.9275524475524476
-89,16,<function _fit_score.<locals>.resampling at 0x7f17cbf7a840>,1.0,0.9299300699300699
-90,17,<function _fit_score.<locals>.resampling at 0x7f17cbf75d90>,1.0,0.9360114338216529
-91,17,<function _fit_score.<locals>.resampling at 0x7f17cbf75e18>,1.0,0.9302572609871881
-92,17,<function _fit_score.<locals>.resampling at 0x7f17cbf75ea0>,1.0,0.9403603695574497
-93,17,<function _fit_score.<locals>.resampling at 0x7f17cbf75f28>,1.0,0.9396610688581492
-94,17,<function _fit_score.<locals>.resampling at 0x7f17cbf7a048>,1.0,0.9280062273492931
-95,18,<function _fit_score.<locals>.resampling at 0x7f17cbf7ab70>,1.0,0.9428844877749988
-96,18,<function _fit_score.<locals>.resampling at 0x7f17cbf7abf8>,1.0,0.9538400285845541
-97,18,<function _fit_score.<locals>.resampling at 0x7f17cbf7ac80>,1.0,0.9514491348067992
-98,18,<function _fit_score.<locals>.resampling at 0x7f17cbf7ad08>,1.0,0.9364310142412333
-99,18,<function _fit_score.<locals>.resampling at 0x7f17cbf7ad90>,1.0,0.9497708131284776
-100,19,<function _fit_score.<locals>.resampling at 0x7f17cbf7f400>,1.0,0.9319355826655097
-101,19,<function _fit_score.<locals>.resampling at 0x7f17cbf7f488>,1.0,0.9431708437547853
-102,19,<function _fit_score.<locals>.resampling at 0x7f17cbf7f510>,1.0,0.9434439283344392
-103,19,<function _fit_score.<locals>.resampling at 0x7f17cbf7f598>,1.0,0.9337670358838243
-104,19,<function _fit_score.<locals>.resampling at 0x7f17cbf7f620>,1.0,0.9385355520392016
-105,20,<function _fit_score.<locals>.resampling at 0x7f17cbf1b0d0>,1.0,0.94237899125483
-106,20,<function _fit_score.<locals>.resampling at 0x7f17cbf1b158>,1.0,0.9352465934512915
-107,20,<function _fit_score.<locals>.resampling at 0x7f17cbf1b1e0>,1.0,0.9422391702257473
-108,20,<function _fit_score.<locals>.resampling at 0x7f17cbf1b268>,1.0,0.9436378889566809
-109,20,<function _fit_score.<locals>.resampling at 0x7f17cbf1b2f0>,1.0,0.9346868008948546
-110,21,<function _fit_score.<locals>.resampling at 0x7f17cbf16840>,1.0,0.93496644295302
-111,21,<function _fit_score.<locals>.resampling at 0x7f17cbf168c8>,1.0,0.9331482611348384
-112,21,<function _fit_score.<locals>.resampling at 0x7f17cbf16950>,1.0,0.9437777099857636
-113,21,<function _fit_score.<locals>.resampling at 0x7f17cbf169d8>,1.0,0.9530084401057556
-114,21,<function _fit_score.<locals>.resampling at 0x7f17cbf16a60>,1.0,0.9372040878584503
-115,22,<function _fit_score.<locals>.resampling at 0x7f17cbf851e0>,1.0,0.9402811673784827
-116,22,<function _fit_score.<locals>.resampling at 0x7f17cbf85268>,1.0,0.9377638804148872
-117,22,<function _fit_score.<locals>.resampling at 0x7f17cbf852f0>,1.0,0.9429387838112672
-118,22,<function _fit_score.<locals>.resampling at 0x7f17cbf85378>,1.0,0.94531624974578
-119,22,<function _fit_score.<locals>.resampling at 0x7f17cbf85400>,1.0,0.9441976815131178
-120,23,<function _fit_score.<locals>.resampling at 0x7f17cbf8d1e0>,1.0,0.9255953833638397
-121,23,<function _fit_score.<locals>.resampling at 0x7f17cbf1bb70>,1.0,0.9278330282692698
-122,23,<function _fit_score.<locals>.resampling at 0x7f17cbf1bbf8>,1.0,0.9394417327638804
-123,23,<function _fit_score.<locals>.resampling at 0x7f17cbf1bc80>,1.0,0.9303508236729713
-124,23,<function _fit_score.<locals>.resampling at 0x7f17cbf1bd08>,1.0,0.9323088265202358
-125,24,<function _fit_score.<locals>.resampling at 0x7f17cbf85950>,1.0,0.9195804195804196
-126,24,<function _fit_score.<locals>.resampling at 0x7f17cbf859d8>,1.0,0.9317482517482516
-127,24,<function _fit_score.<locals>.resampling at 0x7f17cbf85a60>,1.0,0.9247552447552447
-128,24,<function _fit_score.<locals>.resampling at 0x7f17cbf85ae8>,1.0,0.928951048951049
-129,24,<function _fit_score.<locals>.resampling at 0x7f17cbf85b70>,1.0,0.9316083916083915
-130,25,<function _fit_score.<locals>.resampling at 0x7f17cbf85488>,1.0,0.9337062937062938
-131,25,<function _fit_score.<locals>.resampling at 0x7f17cbf85510>,1.0,0.9395804195804195
-132,25,<function _fit_score.<locals>.resampling at 0x7f17cbf85598>,1.0,0.9482517482517482
-133,25,<function _fit_score.<locals>.resampling at 0x7f17cbf85620>,1.0,0.9391608391608393
-134,25,<function _fit_score.<locals>.resampling at 0x7f17cbf856a8>,1.0,0.9492307692307692
-135,26,<function _fit_score.<locals>.resampling at 0x7f17cbf7fea0>,1.0,0.9381818181818182
-136,26,<function _fit_score.<locals>.resampling at 0x7f17cbf7ff28>,1.0,0.9430769230769231
-137,26,<function _fit_score.<locals>.resampling at 0x7f17cbf85048>,1.0,0.9478321678321677
-138,26,<function _fit_score.<locals>.resampling at 0x7f17cbf850d0>,1.0,0.9458741258741259
-139,26,<function _fit_score.<locals>.resampling at 0x7f17cbf85158>,1.0,0.9493706293706294
-140,27,<function _fit_score.<locals>.resampling at 0x7f17cbf85ea0>,1.0,0.9504701138277781
-141,27,<function _fit_score.<locals>.resampling at 0x7f17cbf85f28>,1.0,0.9501903935480578
-142,27,<function _fit_score.<locals>.resampling at 0x7f17cbf8d048>,1.0,0.9455617375325406
-143,27,<function _fit_score.<locals>.resampling at 0x7f17cbf8d0d0>,1.0,0.9361579296615793
-144,27,<function _fit_score.<locals>.resampling at 0x7f17cbf8d158>,1.0,0.9546858251237814
-145,28,<function _fit_score.<locals>.resampling at 0x7f17cbf162f0>,1.0,0.9138339033229543
-146,28,<function _fit_score.<locals>.resampling at 0x7f17cbf16378>,1.0,0.9417656066561176
-147,28,<function _fit_score.<locals>.resampling at 0x7f17cbf16400>,1.0,0.944436220713593
-148,28,<function _fit_score.<locals>.resampling at 0x7f17cbf16488>,1.0,0.9367173702210199
-149,28,<function _fit_score.<locals>.resampling at 0x7f17cbf16510>,1.0,0.9433107038946454
-150,29,<function _fit_score.<locals>.resampling at 0x7f17cbf7fe18>,1.0,0.9282925833290797
-151,29,<function _fit_score.<locals>.resampling at 0x7f17cbf85730>,1.0,0.9303971211270482
-152,29,<function _fit_score.<locals>.resampling at 0x7f17cbf857b8>,1.0,0.9249226685723037
-153,29,<function _fit_score.<locals>.resampling at 0x7f17cbf85840>,1.0,0.9285723036087999
-154,29,<function _fit_score.<locals>.resampling at 0x7f17cbf858c8>,1.0,0.9347460568628452
-155,30,<function _fit_score.<locals>.resampling at 0x7f17cbf1bd90>,1.0,0.9176235509456987
-156,30,<function _fit_score.<locals>.resampling at 0x7f17cbf23400>,1.0,0.9180435224730527
-157,30,<function _fit_score.<locals>.resampling at 0x7f17cbf23488>,1.0,0.9293720764693919
-158,30,<function _fit_score.<locals>.resampling at 0x7f17cbf23510>,1.0,0.9387426276184665
-159,30,<function _fit_score.<locals>.resampling at 0x7f17cbf23598>,1.0,0.9297915395566403
-160,31,<function _fit_score.<locals>.resampling at 0x7f17cbf1b620>,1.0,0.9348266219239373
-161,31,<function _fit_score.<locals>.resampling at 0x7f17cbf1b6a8>,1.0,0.9325889770185073
-162,31,<function _fit_score.<locals>.resampling at 0x7f17cbf1b730>,1.0,0.9269946105348791
-163,31,<function _fit_score.<locals>.resampling at 0x7f17cbf1b7b8>,1.0,0.9318898718730935
-164,31,<function _fit_score.<locals>.resampling at 0x7f17cbf1b840>,1.0,0.9366448037421192
-165,32,<function _fit_score.<locals>.resampling at 0x7f17cbf16598>,1.0,0.9320291844620703
-166,32,<function _fit_score.<locals>.resampling at 0x7f17cbf16620>,1.0,0.9317495424039047
-167,32,<function _fit_score.<locals>.resampling at 0x7f17cbf166a8>,1.0,0.941399735611145
-168,32,<function _fit_score.<locals>.resampling at 0x7f17cbf16730>,1.0,0.9462949969493594
-169,32,<function _fit_score.<locals>.resampling at 0x7f17cbf167b8>,1.0,0.9446166361602603
-170,33,<function _fit_score.<locals>.resampling at 0x7f17cbf1b8c8>,1.0,0.9474140736221272
-171,33,<function _fit_score.<locals>.resampling at 0x7f17cbf1b950>,1.0,0.9353859060402684
-172,33,<function _fit_score.<locals>.resampling at 0x7f17cbf1b9d8>,1.0,0.9275538946512101
-173,33,<function _fit_score.<locals>.resampling at 0x7f17cbf1ba60>,1.0,0.9507702867602197
-174,33,<function _fit_score.<locals>.resampling at 0x7f17cbf1bae8>,1.0,0.9338473662802522
-175,34,<function _fit_score.<locals>.resampling at 0x7f17cbf23bf8>,1.0,0.9373426573426573
-176,34,<function _fit_score.<locals>.resampling at 0x7f17cbf23c80>,1.0,0.9314685314685315
-177,34,<function _fit_score.<locals>.resampling at 0x7f17cbf23d08>,1.0,0.9397202797202797
-178,34,<function _fit_score.<locals>.resampling at 0x7f17cbf23d90>,1.0,0.947972027972028
-179,34,<function _fit_score.<locals>.resampling at 0x7f17cbf23e18>,1.0,0.9370629370629371
-180,35,<function _fit_score.<locals>.resampling at 0x7f17cbf85bf8>,1.0,0.9574825174825174
-181,35,<function _fit_score.<locals>.resampling at 0x7f17cbf85c80>,1.0,0.9462937062937063
-182,35,<function _fit_score.<locals>.resampling at 0x7f17cbf85d08>,1.0,0.9531468531468532
-183,35,<function _fit_score.<locals>.resampling at 0x7f17cbf85d90>,1.0,0.9486713286713286
-184,35,<function _fit_score.<locals>.resampling at 0x7f17cbf85e18>,1.0,0.9565034965034964
-185,36,<function _fit_score.<locals>.resampling at 0x7f17cbf8d268>,1.0,0.932867132867133
-186,36,<function _fit_score.<locals>.resampling at 0x7f17cbf8d2f0>,1.0,0.9324475524475526
-187,36,<function _fit_score.<locals>.resampling at 0x7f17cbf8d378>,1.0,0.9489510489510489
-188,36,<function _fit_score.<locals>.resampling at 0x7f17cbf8d400>,1.0,0.939020979020979
-189,36,<function _fit_score.<locals>.resampling at 0x7f17cbf8d488>,1.0,0.947132867132867
-190,37,<function _fit_score.<locals>.resampling at 0x7f17cbf23158>,1.0,0.9166377418202236
-191,37,<function _fit_score.<locals>.resampling at 0x7f17cbf231e0>,1.0,0.9277265070695727
-192,37,<function _fit_score.<locals>.resampling at 0x7f17cbf23268>,1.0,0.9159384411209229
-193,37,<function _fit_score.<locals>.resampling at 0x7f17cbf232f0>,1.0,0.9346061967229851
-194,37,<function _fit_score.<locals>.resampling at 0x7f17cbf23378>,1.0,0.9374100352202543
-195,38,<function _fit_score.<locals>.resampling at 0x7f17cbf1b378>,1.0,0.9275866469297126
-196,38,<function _fit_score.<locals>.resampling at 0x7f17cbf1b400>,1.0,0.9277265070695727
-197,38,<function _fit_score.<locals>.resampling at 0x7f17cbf1b488>,1.0,0.9315160022459293
-198,38,<function _fit_score.<locals>.resampling at 0x7f17cbf1b510>,1.0,0.9281460874891532
-199,38,<function _fit_score.<locals>.resampling at 0x7f17cbf1b598>,1.0,0.9230978510540554
-200,39,<function _fit_score.<locals>.resampling at 0x7f17cbf1be18>,1.0,0.9298310448675412
-201,39,<function _fit_score.<locals>.resampling at 0x7f17cbf1bea0>,1.0,0.9310964218263489
-202,39,<function _fit_score.<locals>.resampling at 0x7f17cbf1bf28>,1.0,0.9385355520392016
-203,39,<function _fit_score.<locals>.resampling at 0x7f17cbf23048>,1.0,0.9247761727323771
-204,39,<function _fit_score.<locals>.resampling at 0x7f17cbf230d0>,1.0,0.9365708743810934
-205,40,<function _fit_score.<locals>.resampling at 0x7f17cbf8d510>,1.0,0.9236378889566809
-206,40,<function _fit_score.<locals>.resampling at 0x7f17cbf8d598>,1.0,0.9255958918039455
-207,40,<function _fit_score.<locals>.resampling at 0x7f17cbf8d620>,1.0,0.9222391702257473
-208,40,<function _fit_score.<locals>.resampling at 0x7f17cbf8d6a8>,1.0,0.9307707952003254
-209,40,<function _fit_score.<locals>.resampling at 0x7f17cbf8d730>,1.0,0.9331482611348384
-210,41,<function _fit_score.<locals>.resampling at 0x7f17cbf8dd08>,1.0,0.9404209884075655
-211,41,<function _fit_score.<locals>.resampling at 0x7f17cbf8dd90>,1.0,0.9493720764693919
-212,41,<function _fit_score.<locals>.resampling at 0x7f17cbf8de18>,1.0,0.9325889770185073
-213,41,<function _fit_score.<locals>.resampling at 0x7f17cbf8dea0>,1.0,0.9335677242220867
-214,41,<function _fit_score.<locals>.resampling at 0x7f17cbf8df28>,1.0,0.9384629855603009
-215,42,<function _fit_score.<locals>.resampling at 0x7f17cbf16048>,1.0,0.9482529997966238
-216,42,<function _fit_score.<locals>.resampling at 0x7f17cbf160d0>,1.0,0.9472742525930444
-217,42,<function _fit_score.<locals>.resampling at 0x7f17cbf16158>,1.0,0.9427984543420785
-218,42,<function _fit_score.<locals>.resampling at 0x7f17cbf161e0>,1.0,0.9405608094366483
-219,42,<function _fit_score.<locals>.resampling at 0x7f17cbf16268>,1.0,0.9409802725238966
-220,43,<function _fit_score.<locals>.resampling at 0x7f17cbf23ea0>,1.0,0.939022269676632
-221,43,<function _fit_score.<locals>.resampling at 0x7f17cbf23f28>,1.0,0.9358053691275167
-222,43,<function _fit_score.<locals>.resampling at 0x7f17cbf2b048>,1.0,0.9304911531421598
-223,43,<function _fit_score.<locals>.resampling at 0x7f17cbf2b0d0>,1.0,0.9395820622330691
-224,43,<function _fit_score.<locals>.resampling at 0x7f17cbf2b158>,1.0,0.9500711816148057
-225,44,<function _fit_score.<locals>.resampling at 0x7f17cbf8da60>,1.0,0.9239160839160839
-226,44,<function _fit_score.<locals>.resampling at 0x7f17cbf8dae8>,1.0,0.9377622377622377
-227,44,<function _fit_score.<locals>.resampling at 0x7f17cbf8db70>,1.0,0.9423776223776223
-228,44,<function _fit_score.<locals>.resampling at 0x7f17cbf8dbf8>,1.0,0.9404195804195804
-229,44,<function _fit_score.<locals>.resampling at 0x7f17cbf8dc80>,1.0,0.9432167832167832
-230,45,<function _fit_score.<locals>.resampling at 0x7f17cbf16ae8>,1.0,0.9179020979020979
-231,45,<function _fit_score.<locals>.resampling at 0x7f17cbf16b70>,1.0,0.9234965034965035
-232,45,<function _fit_score.<locals>.resampling at 0x7f17cbf16bf8>,1.0,0.9353846153846155
-233,45,<function _fit_score.<locals>.resampling at 0x7f17cbf16c80>,1.0,0.940979020979021
-234,45,<function _fit_score.<locals>.resampling at 0x7f17cbf16d08>,1.0,0.9331468531468532
-235,46,<function _fit_score.<locals>.resampling at 0x7f17cbf16d90>,1.0,0.9300699300699301
-236,46,<function _fit_score.<locals>.resampling at 0x7f17cbf16e18>,1.0,0.9388811188811188
-237,46,<function _fit_score.<locals>.resampling at 0x7f17cbf16ea0>,1.0,0.9402797202797203
-238,46,<function _fit_score.<locals>.resampling at 0x7f17cbf16f28>,1.0,0.938041958041958
-239,46,<function _fit_score.<locals>.resampling at 0x7f17cbf1b048>,1.0,0.9360839160839162
-240,47,<function _fit_score.<locals>.resampling at 0x7f17cbf23950>,1.0,0.9528543719054668
-241,47,<function _fit_score.<locals>.resampling at 0x7f17cbf239d8>,1.0,0.9616987392169873
-242,47,<function _fit_score.<locals>.resampling at 0x7f17cbf23a60>,1.0,0.9513092746669389
-243,47,<function _fit_score.<locals>.resampling at 0x7f17cbf23ae8>,1.0,0.9542596090041345
-244,47,<function _fit_score.<locals>.resampling at 0x7f17cbf23b70>,1.0,0.9608595783778265
-245,48,<function _fit_score.<locals>.resampling at 0x7f17cbf2b488>,1.0,0.9292716043081006
-246,48,<function _fit_score.<locals>.resampling at 0x7f17cbf2b510>,1.0,0.9316558623857895
-247,48,<function _fit_score.<locals>.resampling at 0x7f17cbf2b598>,1.0,0.9379694757796948
-248,48,<function _fit_score.<locals>.resampling at 0x7f17cbf2b620>,1.0,0.9407799499770303
-249,48,<function _fit_score.<locals>.resampling at 0x7f17cbf2b6a8>,1.0,0.9309565616864888
-250,49,<function _fit_score.<locals>.resampling at 0x7f17cbf23620>,1.0,0.9171971823796642
-251,49,<function _fit_score.<locals>.resampling at 0x7f17cbf2bc80>,1.0,0.9267474860905519
-252,49,<function _fit_score.<locals>.resampling at 0x7f17cbf2bd08>,1.0,0.9230978510540554
-253,49,<function _fit_score.<locals>.resampling at 0x7f17cbf2bd90>,1.0,0.9215527538155276
-254,49,<function _fit_score.<locals>.resampling at 0x7f17cbf2be18>,1.0,0.9208534531162267
-255,50,<function _fit_score.<locals>.resampling at 0x7f17cbf2b1e0>,1.0,0.9450360992475086
-256,50,<function _fit_score.<locals>.resampling at 0x7f17cbf2b268>,1.0,0.9500711816148057
-257,50,<function _fit_score.<locals>.resampling at 0x7f17cbf2b2f0>,1.0,0.9507702867602197
-258,50,<function _fit_score.<locals>.resampling at 0x7f17cbf2b378>,1.0,0.9525884685784014
-259,50,<function _fit_score.<locals>.resampling at 0x7f17cbf2b400>,1.0,0.9558053691275168
-260,51,<function _fit_score.<locals>.resampling at 0x7f17cbf2b730>,1.0,0.9286729713239781
-261,51,<function _fit_score.<locals>.resampling at 0x7f17cbf2b7b8>,1.0,0.9264348179784421
-262,51,<function _fit_score.<locals>.resampling at 0x7f17cbf2b840>,1.0,0.9348266219239373
-263,51,<function _fit_score.<locals>.resampling at 0x7f17cbf2b8c8>,1.0,0.9358058775676227
-264,51,<function _fit_score.<locals>.resampling at 0x7f17cbf2b950>,1.0,0.9332880821639211
-265,52,<function _fit_score.<locals>.resampling at 0x7f17cbf2bea0>,1.0,0.9426586333129957
-266,52,<function _fit_score.<locals>.resampling at 0x7f17cbf2bf28>,1.0,0.9299313605857229
-267,52,<function _fit_score.<locals>.resampling at 0x7f17cbf2f048>,1.0,0.9388824486475492
-268,52,<function _fit_score.<locals>.resampling at 0x7f17cbf2f0d0>,1.0,0.9351062639821028
-269,52,<function _fit_score.<locals>.resampling at 0x7f17cbf2f158>,1.0,0.9391620907057149
-270,53,<function _fit_score.<locals>.resampling at 0x7f17cbf2fc80>,1.0,0.9374842383567216
-271,53,<function _fit_score.<locals>.resampling at 0x7f17cbf2fd08>,1.0,0.9432184258694327
-272,53,<function _fit_score.<locals>.resampling at 0x7f17cbf2fd90>,1.0,0.941260423022168
-273,53,<function _fit_score.<locals>.resampling at 0x7f17cbf2fe18>,1.0,0.934407158836689
-274,53,<function _fit_score.<locals>.resampling at 0x7f17cbf2fea0>,1.0,0.936784624771202
-275,54,<function _fit_score.<locals>.resampling at 0x7f17cbf2b9d8>,1.0,0.9388811188811188
-276,54,<function _fit_score.<locals>.resampling at 0x7f17cbf2ba60>,1.0,0.9358041958041957
-277,54,<function _fit_score.<locals>.resampling at 0x7f17cbf2bae8>,1.0,0.9349650349650349
-278,54,<function _fit_score.<locals>.resampling at 0x7f17cbf2bb70>,1.0,0.946013986013986
-279,54,<function _fit_score.<locals>.resampling at 0x7f17cbf2bbf8>,1.0,0.9391608391608393
-280,55,<function _fit_score.<locals>.resampling at 0x7f17cbf2ff28>,1.0,0.9446153846153847
-281,55,<function _fit_score.<locals>.resampling at 0x7f17cbf34048>,1.0,0.9344055944055945
-282,55,<function _fit_score.<locals>.resampling at 0x7f17cbf340d0>,1.0,0.9388811188811188
-283,55,<function _fit_score.<locals>.resampling at 0x7f17cbf34158>,1.0,0.9366433566433569
-284,55,<function _fit_score.<locals>.resampling at 0x7f17cbf341e0>,1.0,0.9418181818181817
-285,56,<function _fit_score.<locals>.resampling at 0x7f17cbf34510>,1.0,0.9184615384615384
-286,56,<function _fit_score.<locals>.resampling at 0x7f17cbf34598>,1.0,0.928951048951049
-287,56,<function _fit_score.<locals>.resampling at 0x7f17cbf34620>,1.0,0.9278321678321678
-288,56,<function _fit_score.<locals>.resampling at 0x7f17cbf346a8>,1.0,0.9307692307692307
-289,56,<function _fit_score.<locals>.resampling at 0x7f17cbf34730>,1.0,0.9345454545454546
-290,57,<function _fit_score.<locals>.resampling at 0x7f17cbf2f9d8>,1.0,0.943870144454086
-291,57,<function _fit_score.<locals>.resampling at 0x7f17cbf2fa60>,1.0,0.9374166709203205
-292,57,<function _fit_score.<locals>.resampling at 0x7f17cbf2fae8>,1.0,0.9391016282987086
-293,57,<function _fit_score.<locals>.resampling at 0x7f17cbf2fb70>,1.0,0.9344663365831248
-294,57,<function _fit_score.<locals>.resampling at 0x7f17cbf2fbf8>,1.0,0.9374166709203205
-295,58,<function _fit_score.<locals>.resampling at 0x7f17cbf3d598>,1.0,0.9326348833648104
-296,58,<function _fit_score.<locals>.resampling at 0x7f17cbf3d620>,1.0,0.929691184727681
-297,58,<function _fit_score.<locals>.resampling at 0x7f17cbf3d6a8>,1.0,0.9292716043081006
-298,58,<function _fit_score.<locals>.resampling at 0x7f17cbf3d730>,1.0,0.929551324587821
-299,58,<function _fit_score.<locals>.resampling at 0x7f17cbf3d7b8>,1.0,0.9484988004696034
-300,59,<function _fit_score.<locals>.resampling at 0x7f17cbf2f488>,1.0,0.938955132458782
-301,59,<function _fit_score.<locals>.resampling at 0x7f17cbf2f510>,1.0,0.9398009289980094
-302,59,<function _fit_score.<locals>.resampling at 0x7f17cbf2f598>,1.0,0.933627175743964
-303,59,<function _fit_score.<locals>.resampling at 0x7f17cbf2f620>,1.0,0.9403603695574497
-304,59,<function _fit_score.<locals>.resampling at 0x7f17cbf2f6a8>,1.0,0.9409198101168904
-305,60,<function _fit_score.<locals>.resampling at 0x7f17cbf3d2f0>,1.0,0.9167846247712019
-306,60,<function _fit_score.<locals>.resampling at 0x7f17cbf3d378>,1.0,0.931609721374822
-307,60,<function _fit_score.<locals>.resampling at 0x7f17cbf3d400>,1.0,0.9240573520439291
-308,60,<function _fit_score.<locals>.resampling at 0x7f17cbf3d488>,1.0,0.9320296929021762
-309,60,<function _fit_score.<locals>.resampling at 0x7f17cbf3d510>,1.0,0.9339876957494407
-310,61,<function _fit_score.<locals>.resampling at 0x7f17cbf2f730>,1.0,0.9523093349603418
-311,61,<function _fit_score.<locals>.resampling at 0x7f17cbf2f7b8>,1.0,0.952169005491153
-312,61,<function _fit_score.<locals>.resampling at 0x7f17cbf2f840>,1.0,0.9317495424039047
-313,61,<function _fit_score.<locals>.resampling at 0x7f17cbf2f8c8>,1.0,0.946994610534879
-314,61,<function _fit_score.<locals>.resampling at 0x7f17cbf2f950>,1.0,0.9525889770185073
-315,62,<function _fit_score.<locals>.resampling at 0x7f17cbf34268>,1.0,0.9439175310148464
-316,62,<function _fit_score.<locals>.resampling at 0x7f17cbf342f0>,1.0,0.9372040878584503
-317,62,<function _fit_score.<locals>.resampling at 0x7f17cbf34378>,1.0,0.9338473662802522
-318,62,<function _fit_score.<locals>.resampling at 0x7f17cbf34400>,1.0,0.9444768151311775
-319,62,<function _fit_score.<locals>.resampling at 0x7f17cbf34488>,1.0,0.9481131787675411
-320,63,<function _fit_score.<locals>.resampling at 0x7f17cbf34d08>,1.0,0.925875533862111
-321,63,<function _fit_score.<locals>.resampling at 0x7f17cbf34d90>,1.0,0.9321695139312589
-322,63,<function _fit_score.<locals>.resampling at 0x7f17cbf34e18>,1.0,0.9276937156802929
-323,63,<function _fit_score.<locals>.resampling at 0x7f17cbf34ea0>,1.0,0.9345469798657717
-324,63,<function _fit_score.<locals>.resampling at 0x7f17cbf34f28>,1.0,0.9325889770185073
-325,64,<function _fit_score.<locals>.resampling at 0x7f17cbf2f1e0>,1.0,0.9380419580419581
-326,64,<function _fit_score.<locals>.resampling at 0x7f17cbf2f268>,1.0,0.9244755244755244
-327,64,<function _fit_score.<locals>.resampling at 0x7f17cbf2f2f0>,1.0,0.9413986013986013
-328,64,<function _fit_score.<locals>.resampling at 0x7f17cbf2f378>,1.0,0.9443356643356643
-329,64,<function _fit_score.<locals>.resampling at 0x7f17cbf2f400>,1.0,0.9481118881118881
-330,65,<function _fit_score.<locals>.resampling at 0x7f17cbf347b8>,1.0,0.9290909090909092
-331,65,<function _fit_score.<locals>.resampling at 0x7f17cbf34840>,1.0,0.9222377622377622
-332,65,<function _fit_score.<locals>.resampling at 0x7f17cbf348c8>,1.0,0.9264335664335664
-333,65,<function _fit_score.<locals>.resampling at 0x7f17cbf34950>,1.0,0.9286713286713286
-334,65,<function _fit_score.<locals>.resampling at 0x7f17cbf349d8>,1.0,0.927972027972028
-335,66,<function _fit_score.<locals>.resampling at 0x7f17cbf3d048>,1.0,0.9341258741258741
-336,66,<function _fit_score.<locals>.resampling at 0x7f17cbf3d0d0>,1.0,0.9313286713286713
-337,66,<function _fit_score.<locals>.resampling at 0x7f17cbf3d158>,1.0,0.9334265734265734
-338,66,<function _fit_score.<locals>.resampling at 0x7f17cbf3d1e0>,1.0,0.930909090909091
-339,66,<function _fit_score.<locals>.resampling at 0x7f17cbf3d268>,1.0,0.9346853146853146
-340,67,<function _fit_score.<locals>.resampling at 0x7f17cbf2de18>,1.0,0.9205670971364401
-341,67,<function _fit_score.<locals>.resampling at 0x7f17cbf2dea0>,1.0,0.9281460874891532
-342,67,<function _fit_score.<locals>.resampling at 0x7f17cbf2df28>,1.0,0.9277265070695727
-343,67,<function _fit_score.<locals>.resampling at 0x7f17cbf45048>,1.0,0.9171971823796642
-344,67,<function _fit_score.<locals>.resampling at 0x7f17cbf450d0>,1.0,0.9264611301107653
-345,68,<function _fit_score.<locals>.resampling at 0x7f17cbf2d0d0>,1.0,0.9448491654331069
-346,68,<function _fit_score.<locals>.resampling at 0x7f17cbf2d158>,1.0,0.9442897248736664
-347,68,<function _fit_score.<locals>.resampling at 0x7f17cbf2d1e0>,1.0,0.9490648767291103
-348,68,<function _fit_score.<locals>.resampling at 0x7f17cbf2d268>,1.0,0.950883058547292
-349,68,<function _fit_score.<locals>.resampling at 0x7f17cbf2d2f0>,1.0,0.949198101168904
-350,69,<function _fit_score.<locals>.resampling at 0x7f17cbf3d840>,1.0,0.9348859170027053
-351,69,<function _fit_score.<locals>.resampling at 0x7f17cbf3d8c8>,1.0,0.9351656372824256
-352,69,<function _fit_score.<locals>.resampling at 0x7f17cbf3d950>,1.0,0.9348859170027053
-353,69,<function _fit_score.<locals>.resampling at 0x7f17cbf3d9d8>,1.0,0.9388152723189218
-354,69,<function _fit_score.<locals>.resampling at 0x7f17cbf3da60>,1.0,0.9400806492777297
-355,70,<function _fit_score.<locals>.resampling at 0x7f17cbf2db70>,1.0,0.9468547895057962
-356,70,<function _fit_score.<locals>.resampling at 0x7f17cbf2dbf8>,1.0,0.9451764287166972
-357,70,<function _fit_score.<locals>.resampling at 0x7f17cbf2dc80>,1.0,0.9471344315639617
-358,70,<function _fit_score.<locals>.resampling at 0x7f17cbf2dd08>,1.0,0.9460158633312995
-359,70,<function _fit_score.<locals>.resampling at 0x7f17cbf2dd90>,1.0,0.9507713036404312
-360,71,<function _fit_score.<locals>.resampling at 0x7f17cbf34a60>,1.0,0.9380435224730527
-361,71,<function _fit_score.<locals>.resampling at 0x7f17cbf34ae8>,1.0,0.9400015253203172
-362,71,<function _fit_score.<locals>.resampling at 0x7f17cbf34b70>,1.0,0.9381838519422412
-363,71,<function _fit_score.<locals>.resampling at 0x7f17cbf34bf8>,1.0,0.9311907667276795
-364,71,<function _fit_score.<locals>.resampling at 0x7f17cbf34c80>,1.0,0.93790370144397
-365,72,<function _fit_score.<locals>.resampling at 0x7f17cbf2d620>,1.0,0.9304906447020541
-366,72,<function _fit_score.<locals>.resampling at 0x7f17cbf2d6a8>,1.0,0.9250360992475086
-367,72,<function _fit_score.<locals>.resampling at 0x7f17cbf2d730>,1.0,0.9313300793166565
-368,72,<function _fit_score.<locals>.resampling at 0x7f17cbf2d7b8>,1.0,0.9310499288183852
-369,72,<function _fit_score.<locals>.resampling at 0x7f17cbf2d840>,1.0,0.9279733577384583
-370,73,<function _fit_score.<locals>.resampling at 0x7f17cbf3dd90>,1.0,0.9400010168802114
-371,73,<function _fit_score.<locals>.resampling at 0x7f17cbf3de18>,1.0,0.925875533862111
-372,73,<function _fit_score.<locals>.resampling at 0x7f17cbf3dea0>,1.0,0.9355257270693512
-373,73,<function _fit_score.<locals>.resampling at 0x7f17cbf3df28>,1.0,0.9304906447020541
-374,73,<function _fit_score.<locals>.resampling at 0x7f17cbf2d048>,1.0,0.9246166361602602
-375,74,<function _fit_score.<locals>.resampling at 0x7f17cbf45158>,1.0,0.9413986013986014
-376,74,<function _fit_score.<locals>.resampling at 0x7f17cbf451e0>,1.0,0.9461538461538462
-377,74,<function _fit_score.<locals>.resampling at 0x7f17cbf45268>,1.0,0.9516083916083915
-378,74,<function _fit_score.<locals>.resampling at 0x7f17cbf452f0>,1.0,0.9475524475524475
-379,74,<function _fit_score.<locals>.resampling at 0x7f17cbf45378>,1.0,0.9395804195804196
-380,75,<function _fit_score.<locals>.resampling at 0x7f17cbf3dae8>,1.0,0.9306293706293706
-381,75,<function _fit_score.<locals>.resampling at 0x7f17cbf3db70>,1.0,0.9359440559440559
-382,75,<function _fit_score.<locals>.resampling at 0x7f17cbf3dbf8>,1.0,0.9317482517482516
-383,75,<function _fit_score.<locals>.resampling at 0x7f17cbf3dc80>,1.0,0.9274125874125875
-384,75,<function _fit_score.<locals>.resampling at 0x7f17cbf3dd08>,1.0,0.9338461538461538
-385,76,<function _fit_score.<locals>.resampling at 0x7f17cbf45400>,1.0,0.9413986013986013
-386,76,<function _fit_score.<locals>.resampling at 0x7f17cbf45488>,1.0,0.936923076923077
-387,76,<function _fit_score.<locals>.resampling at 0x7f17cbf45510>,1.0,0.9321678321678323
-388,76,<function _fit_score.<locals>.resampling at 0x7f17cbf45598>,1.0,0.9372027972027972
-389,76,<function _fit_score.<locals>.resampling at 0x7f17cbf45620>,1.0,0.940979020979021
-390,77,<function _fit_score.<locals>.resampling at 0x7f17cbf4d488>,1.0,0.9148129243019752
-391,77,<function _fit_score.<locals>.resampling at 0x7f17cbf4d510>,1.0,0.9257618294114645
-392,77,<function _fit_score.<locals>.resampling at 0x7f17cbf4d598>,1.0,0.9430309836149252
-393,77,<function _fit_score.<locals>.resampling at 0x7f17cbf4d620>,1.0,0.9365775100811596
-394,77,<function _fit_score.<locals>.resampling at 0x7f17cbf4d6a8>,1.0,0.9442963605737329
-395,78,<function _fit_score.<locals>.resampling at 0x7f17cbf456a8>,1.0,0.9254821091317442
-396,78,<function _fit_score.<locals>.resampling at 0x7f17cbf45730>,1.0,0.924636312592517
-397,78,<function _fit_score.<locals>.resampling at 0x7f17cbf457b8>,1.0,0.9302506252871215
-398,78,<function _fit_score.<locals>.resampling at 0x7f17cbf45840>,1.0,0.9278663672094328
-399,78,<function _fit_score.<locals>.resampling at 0x7f17cbf458c8>,1.0,0.9325016589250166
-400,79,<function _fit_score.<locals>.resampling at 0x7f17cbf4d1e0>,1.0,0.9430309836149252
-401,79,<function _fit_score.<locals>.resampling at 0x7f17cbf4d268>,1.0,0.9326415190648768
-402,79,<function _fit_score.<locals>.resampling at 0x7f17cbf4d2f0>,1.0,0.9385355520392016
-403,79,<function _fit_score.<locals>.resampling at 0x7f17cbf4d378>,1.0,0.9489250165892502
-404,79,<function _fit_score.<locals>.resampling at 0x7f17cbf4d400>,1.0,0.9385355520392016
-405,80,<function _fit_score.<locals>.resampling at 0x7f17cbf2d8c8>,1.0,0.9172040878584503
-406,80,<function _fit_score.<locals>.resampling at 0x7f17cbf2d950>,1.0,0.9230786048403498
-407,80,<function _fit_score.<locals>.resampling at 0x7f17cbf2d9d8>,1.0,0.9240573520439291
-408,80,<function _fit_score.<locals>.resampling at 0x7f17cbf2da60>,1.0,0.9243369941020947
-409,80,<function _fit_score.<locals>.resampling at 0x7f17cbf2dae8>,1.0,0.9166448037421192
-410,81,<function _fit_score.<locals>.resampling at 0x7f17cbf2d378>,1.0,0.9420993491966646
-411,81,<function _fit_score.<locals>.resampling at 0x7f17cbf2d400>,1.0,0.9345469798657717
-412,81,<function _fit_score.<locals>.resampling at 0x7f17cbf2d488>,1.0,0.9366448037421192
-413,81,<function _fit_score.<locals>.resampling at 0x7f17cbf2d510>,1.0,0.9455958918039454
-414,81,<function _fit_score.<locals>.resampling at 0x7f17cbf2d598>,1.0,0.936225340654871
-415,82,<function _fit_score.<locals>.resampling at 0x7f17cbf51a60>,1.0,0.9300711816148057
-416,82,<function _fit_score.<locals>.resampling at 0x7f17cbf51ae8>,1.0,0.9374837299166159
-417,82,<function _fit_score.<locals>.resampling at 0x7f17cbf51b70>,1.0,0.9384624771201954
-418,82,<function _fit_score.<locals>.resampling at 0x7f17cbf51bf8>,1.0,0.9432179174293268
-419,82,<function _fit_score.<locals>.resampling at 0x7f17cbf51c80>,1.0,0.9506304657311369
-420,83,<function _fit_score.<locals>.resampling at 0x7f17cbf4d9d8>,1.0,0.9219595281675818
-421,83,<function _fit_score.<locals>.resampling at 0x7f17cbf4da60>,1.0,0.9257357128330281
-422,83,<function _fit_score.<locals>.resampling at 0x7f17cbf4dae8>,1.0,0.9247569656294489
-423,83,<function _fit_score.<locals>.resampling at 0x7f17cbf4db70>,1.0,0.9290924344112264
-424,83,<function _fit_score.<locals>.resampling at 0x7f17cbf4dbf8>,1.0,0.9278335367093756
-425,84,<function _fit_score.<locals>.resampling at 0x7f17cbf517b8>,1.0,0.9135664335664336
-426,84,<function _fit_score.<locals>.resampling at 0x7f17cbf51840>,1.0,0.9246153846153846
-427,84,<function _fit_score.<locals>.resampling at 0x7f17cbf518c8>,1.0,0.9253146853146853
-428,84,<function _fit_score.<locals>.resampling at 0x7f17cbf51950>,1.0,0.9309090909090909
-429,84,<function _fit_score.<locals>.resampling at 0x7f17cbf519d8>,1.0,0.9184615384615384
-430,85,<function _fit_score.<locals>.resampling at 0x7f17cbf45950>,1.0,0.9384615384615385
-431,85,<function _fit_score.<locals>.resampling at 0x7f17cbf459d8>,1.0,0.9422377622377622
-432,85,<function _fit_score.<locals>.resampling at 0x7f17cbf45a60>,1.0,0.9327272727272727
-433,85,<function _fit_score.<locals>.resampling at 0x7f17cbf45ae8>,1.0,0.9342657342657342
-434,85,<function _fit_score.<locals>.resampling at 0x7f17cbf45b70>,1.0,0.9483916083916084
-435,86,<function _fit_score.<locals>.resampling at 0x7f17cbf45ea0>,1.0,0.9541258741258741
-436,86,<function _fit_score.<locals>.resampling at 0x7f17cbf45f28>,1.0,0.9588811188811189
-437,86,<function _fit_score.<locals>.resampling at 0x7f17cbf4d048>,1.0,0.9446153846153847
-438,86,<function _fit_score.<locals>.resampling at 0x7f17cbf4d0d0>,1.0,0.9594405594405595
-439,86,<function _fit_score.<locals>.resampling at 0x7f17cbf4d158>,1.0,0.9581818181818181
-440,87,<function _fit_score.<locals>.resampling at 0x7f17cbf4d730>,1.0,0.9316558623857895
-441,87,<function _fit_score.<locals>.resampling at 0x7f17cbf4d7b8>,1.0,0.9386754121790618
-442,87,<function _fit_score.<locals>.resampling at 0x7f17cbf4d840>,1.0,0.9379761114797611
-443,87,<function _fit_score.<locals>.resampling at 0x7f17cbf4d8c8>,1.0,0.9393813485784288
-444,87,<function _fit_score.<locals>.resampling at 0x7f17cbf4d950>,1.0,0.9485054361696696
-445,88,<function _fit_score.<locals>.resampling at 0x7f17cbedd2f0>,1.0,0.935585217702006
-446,88,<function _fit_score.<locals>.resampling at 0x7f17cbedd378>,1.0,0.9375498953601143
-447,88,<function _fit_score.<locals>.resampling at 0x7f17cbedd400>,1.0,0.9312362819662089
-448,88,<function _fit_score.<locals>.resampling at 0x7f17cbedd488>,1.0,0.9458348221121944
-449,88,<function _fit_score.<locals>.resampling at 0x7f17cbedd510>,1.0,0.9423250472155582
-450,89,<function _fit_score.<locals>.resampling at 0x7f17cbf4df28>,1.0,0.9353121331223522
-451,89,<function _fit_score.<locals>.resampling at 0x7f17cbf51048>,1.0,0.9294181001480272
-452,89,<function _fit_score.<locals>.resampling at 0x7f17cbf510d0>,1.0,0.9389617681588485
-453,89,<function _fit_score.<locals>.resampling at 0x7f17cbf51158>,1.0,0.9333474554642438
-454,89,<function _fit_score.<locals>.resampling at 0x7f17cbf511e0>,1.0,0.944436220713593
-455,90,<function _fit_score.<locals>.resampling at 0x7f17cbf51510>,1.0,0.9324486475493187
-456,90,<function _fit_score.<locals>.resampling at 0x7f17cbf51598>,1.0,0.9335677242220867
-457,90,<function _fit_score.<locals>.resampling at 0x7f17cbf51620>,1.0,0.925875533862111
-458,90,<function _fit_score.<locals>.resampling at 0x7f17cbf516a8>,1.0,0.9437777099857636
-459,90,<function _fit_score.<locals>.resampling at 0x7f17cbf51730>,1.0,0.93272879804759
-460,91,<function _fit_score.<locals>.resampling at 0x7f17cbf4dc80>,1.0,0.9286724628838723
-461,91,<function _fit_score.<locals>.resampling at 0x7f17cbf4dd08>,1.0,0.9281131787675412
-462,91,<function _fit_score.<locals>.resampling at 0x7f17cbf4dd90>,1.0,0.937343908887533
-463,91,<function _fit_score.<locals>.resampling at 0x7f17cbf4de18>,1.0,0.9299313605857229
-464,91,<function _fit_score.<locals>.resampling at 0x7f17cbf4dea0>,1.0,0.9391620907057149
-465,92,<function _fit_score.<locals>.resampling at 0x7f17cbf51268>,1.0,0.934546471425666
-466,92,<function _fit_score.<locals>.resampling at 0x7f17cbf512f0>,1.0,0.9359451901565995
-467,92,<function _fit_score.<locals>.resampling at 0x7f17cbf51378>,1.0,0.9384629855603009
-468,92,<function _fit_score.<locals>.resampling at 0x7f17cbf51400>,1.0,0.9345469798657717
-469,92,<function _fit_score.<locals>.resampling at 0x7f17cbf51488>,1.0,0.9481131787675411
-470,93,<function _fit_score.<locals>.resampling at 0x7f17cbf45bf8>,1.0,0.9465751474476306
-471,93,<function _fit_score.<locals>.resampling at 0x7f17cbf45c80>,1.0,0.9439175310148464
-472,93,<function _fit_score.<locals>.resampling at 0x7f17cbf45d08>,1.0,0.9448967866585317
-473,93,<function _fit_score.<locals>.resampling at 0x7f17cbf45d90>,1.0,0.9532885906040268
-474,93,<function _fit_score.<locals>.resampling at 0x7f17cbf45e18>,1.0,0.9468547895057962
-475,94,<function _fit_score.<locals>.resampling at 0x7f17cbf51d08>,1.0,0.9380419580419581
-476,94,<function _fit_score.<locals>.resampling at 0x7f17cbf51d90>,1.0,0.9360839160839161
-477,94,<function _fit_score.<locals>.resampling at 0x7f17cbf51e18>,1.0,0.9432167832167832
-478,94,<function _fit_score.<locals>.resampling at 0x7f17cbf51ea0>,1.0,0.9483916083916083
-479,94,<function _fit_score.<locals>.resampling at 0x7f17cbf51f28>,1.0,0.943916083916084
-480,95,<function _fit_score.<locals>.resampling at 0x7f17cbedd048>,1.0,0.9418181818181817
-481,95,<function _fit_score.<locals>.resampling at 0x7f17cbedd0d0>,1.0,0.946013986013986
-482,95,<function _fit_score.<locals>.resampling at 0x7f17cbedd158>,1.0,0.9292307692307693
-483,95,<function _fit_score.<locals>.resampling at 0x7f17cbedd1e0>,1.0,0.9253146853146853
-484,95,<function _fit_score.<locals>.resampling at 0x7f17cbedd268>,1.0,0.9311888111888111
-485,96,<function _fit_score.<locals>.resampling at 0x7f17cbedd598>,1.0,0.9468531468531467
-486,96,<function _fit_score.<locals>.resampling at 0x7f17cbedd620>,1.0,0.9422377622377622
-487,96,<function _fit_score.<locals>.resampling at 0x7f17cbedd6a8>,1.0,0.9434965034965035
-488,96,<function _fit_score.<locals>.resampling at 0x7f17cbedd730>,1.0,0.9528671328671329
-489,96,<function _fit_score.<locals>.resampling at 0x7f17cbedd7b8>,1.0,0.9353846153846153
-490,97,<function _fit_score.<locals>.resampling at 0x7f17cbedd840>,1.0,0.9375565310601806
-491,97,<function _fit_score.<locals>.resampling at 0x7f17cbedd8c8>,1.0,0.9379761114797611
-492,97,<function _fit_score.<locals>.resampling at 0x7f17cbedd950>,1.0,0.9475264151906487
-493,97,<function _fit_score.<locals>.resampling at 0x7f17cbedd9d8>,1.0,0.9476596396304425
-494,97,<function _fit_score.<locals>.resampling at 0x7f17cbedda60>,1.0,0.9475264151906487
-495,98,<function _fit_score.<locals>.resampling at 0x7f17cbeddae8>,1.0,0.9315160022459293
-496,98,<function _fit_score.<locals>.resampling at 0x7f17cbeddb70>,1.0,0.9186024194783319
-497,98,<function _fit_score.<locals>.resampling at 0x7f17cbeddbf8>,1.0,0.9346061967229851
-498,98,<function _fit_score.<locals>.resampling at 0x7f17cbeddc80>,1.0,0.9386754121790618
-499,98,<function _fit_score.<locals>.resampling at 0x7f17cbeddd08>,1.0,0.9346061967229851
+,cv_idx,train_score,test_score,smote__sampling_strategy
+0,99,1.0,0.925755193711398,1
+1,99,1.0,0.9230912153539891,2
+2,99,1.0,0.9308100658465622,3
+3,99,1.0,0.9330610994844571,4
+4,99,1.0,0.9428844877749988,5
+5,0,1.0,0.9233577384584096,1
+6,0,1.0,0.9454560707748627,2
+7,0,1.0,0.9331482611348384,3
+8,0,1.0,0.925875533862111,4
+9,0,1.0,0.9386028065893837,5
+10,1,1.0,0.9234980679275981,1
+11,1,1.0,0.9373444173276387,2
+12,1,1.0,0.93790370144397,3
+13,1,1.0,0.9348266219239373,4
+14,1,1.0,0.9372040878584503,5
+15,2,1.0,0.9338473662802522,1
+16,2,1.0,0.9295118974984747,2
+17,2,1.0,0.9422391702257473,3
+18,2,1.0,0.9448962782184258,4
+19,2,1.0,0.936784624771202,5
+20,3,1.0,0.9250360992475086,1
+21,3,1.0,0.9211200935529795,2
+22,3,1.0,0.9141270083384176,3
+23,3,1.0,0.9163651616839537,4
+24,3,1.0,0.9195815537929631,5
+25,4,1.0,0.9307692307692308,1
+26,4,1.0,0.9204195804195805,2
+27,4,1.0,0.9309090909090909,3
+28,4,1.0,0.933986013986014,4
+29,4,1.0,0.938041958041958,5
+30,5,1.0,0.9306293706293707,1
+31,5,1.0,0.9258741258741259,2
+32,5,1.0,0.9325874125874125,3
+33,5,1.0,0.9327272727272726,4
+34,5,1.0,0.9391608391608393,5
+35,6,1.0,0.9537062937062938,1
+36,6,1.0,0.9478321678321677,2
+37,6,1.0,0.9362237762237763,3
+38,6,1.0,0.9469930069930069,4
+39,6,1.0,0.9514685314685314,5
+40,7,1.0,0.9376963912000408,1
+41,7,1.0,0.9360114338216529,2
+42,7,1.0,0.9455551018324742,3
+43,7,1.0,0.9367173702210199,4
+44,7,1.0,0.9334873156041039,5
+45,8,1.0,0.9462610382318412,1
+46,8,1.0,0.9469603389311418,2
+47,8,1.0,0.9383956918993415,3
+48,8,1.0,0.9396610688581492,4
+49,8,1.0,0.9403670052575163,5
+50,9,1.0,0.9455551018324742,1
+51,9,1.0,0.9499106732683376,2
+52,9,1.0,0.9496309529886173,3
+53,9,1.0,0.9449956612730337,4
+54,9,1.0,0.952155071206166,5
+55,10,1.0,0.9468547895057962,1
+56,10,1.0,0.9465751474476306,2
+57,10,1.0,0.9462955053894652,3
+58,10,1.0,0.9444773235712833,4
+59,10,1.0,0.934407158836689,5
+60,11,1.0,0.9262955053894651,1
+61,11,1.0,0.9239175310148464,2
+62,11,1.0,0.944197173073012,3
+63,11,1.0,0.936225340654871,4
+64,11,1.0,0.937204596298556,5
+65,12,1.0,0.9348266219239373,1
+66,12,1.0,0.9205608094366484,2
+67,12,1.0,0.9313300793166565,3
+68,12,1.0,0.9397213748220459,4
+69,12,1.0,0.9422391702257473,5
+70,13,1.0,0.9366448037421192,1
+71,13,1.0,0.93272879804759,2
+72,13,1.0,0.9275538946512101,3
+73,13,1.0,0.9509106162294081,4
+74,13,1.0,0.936225340654871,5
+75,14,1.0,0.9506293706293706,1
+76,14,1.0,0.9397202797202798,2
+77,14,1.0,0.9478321678321677,3
+78,14,1.0,0.9479720279720278,4
+79,14,1.0,0.9555244755244756,5
+80,15,1.0,0.9191608391608391,1
+81,15,1.0,0.9316083916083915,2
+82,15,1.0,0.9286713286713286,3
+83,15,1.0,0.9262937062937062,4
+84,15,1.0,0.935104895104895,5
+85,16,1.0,0.9198601398601399,1
+86,16,1.0,0.9102097902097902,2
+87,16,1.0,0.9191608391608391,3
+88,16,1.0,0.9275524475524476,4
+89,16,1.0,0.9299300699300699,5
+90,17,1.0,0.9360114338216529,1
+91,17,1.0,0.9302572609871881,2
+92,17,1.0,0.9403603695574497,3
+93,17,1.0,0.9396610688581492,4
+94,17,1.0,0.9280062273492931,5
+95,18,1.0,0.9428844877749988,1
+96,18,1.0,0.9538400285845541,2
+97,18,1.0,0.9514491348067992,3
+98,18,1.0,0.9364310142412333,4
+99,18,1.0,0.9497708131284776,5
+100,19,1.0,0.9319355826655097,1
+101,19,1.0,0.9431708437547853,2
+102,19,1.0,0.9434439283344392,3
+103,19,1.0,0.9337670358838243,4
+104,19,1.0,0.9385355520392016,5
+105,20,1.0,0.94237899125483,1
+106,20,1.0,0.9352465934512915,2
+107,20,1.0,0.9422391702257473,3
+108,20,1.0,0.9436378889566809,4
+109,20,1.0,0.9346868008948546,5
+110,21,1.0,0.93496644295302,1
+111,21,1.0,0.9331482611348384,2
+112,21,1.0,0.9437777099857636,3
+113,21,1.0,0.9530084401057556,4
+114,21,1.0,0.9372040878584503,5
+115,22,1.0,0.9402811673784827,1
+116,22,1.0,0.9377638804148872,2
+117,22,1.0,0.9429387838112672,3
+118,22,1.0,0.94531624974578,4
+119,22,1.0,0.9441976815131178,5
+120,23,1.0,0.9255953833638397,1
+121,23,1.0,0.9278330282692698,2
+122,23,1.0,0.9394417327638804,3
+123,23,1.0,0.9303508236729713,4
+124,23,1.0,0.9323088265202358,5
+125,24,1.0,0.9195804195804196,1
+126,24,1.0,0.9317482517482516,2
+127,24,1.0,0.9247552447552447,3
+128,24,1.0,0.928951048951049,4
+129,24,1.0,0.9316083916083915,5
+130,25,1.0,0.9337062937062938,1
+131,25,1.0,0.9395804195804195,2
+132,25,1.0,0.9482517482517482,3
+133,25,1.0,0.9391608391608393,4
+134,25,1.0,0.9492307692307692,5
+135,26,1.0,0.9381818181818182,1
+136,26,1.0,0.9430769230769231,2
+137,26,1.0,0.9478321678321677,3
+138,26,1.0,0.9458741258741259,4
+139,26,1.0,0.9493706293706294,5
+140,27,1.0,0.9504701138277781,1
+141,27,1.0,0.9501903935480578,2
+142,27,1.0,0.9455617375325406,3
+143,27,1.0,0.9361579296615793,4
+144,27,1.0,0.9546858251237814,5
+145,28,1.0,0.9138339033229543,1
+146,28,1.0,0.9417656066561176,2
+147,28,1.0,0.944436220713593,3
+148,28,1.0,0.9367173702210199,4
+149,28,1.0,0.9433107038946454,5
+150,29,1.0,0.9282925833290797,1
+151,29,1.0,0.9303971211270482,2
+152,29,1.0,0.9249226685723037,3
+153,29,1.0,0.9285723036087999,4
+154,29,1.0,0.9347460568628452,5
+155,30,1.0,0.9176235509456987,1
+156,30,1.0,0.9180435224730527,2
+157,30,1.0,0.9293720764693919,3
+158,30,1.0,0.9387426276184665,4
+159,30,1.0,0.9297915395566403,5
+160,31,1.0,0.9348266219239373,1
+161,31,1.0,0.9325889770185073,2
+162,31,1.0,0.9269946105348791,3
+163,31,1.0,0.9318898718730935,4
+164,31,1.0,0.9366448037421192,5
+165,32,1.0,0.9320291844620703,1
+166,32,1.0,0.9317495424039047,2
+167,32,1.0,0.941399735611145,3
+168,32,1.0,0.9462949969493594,4
+169,32,1.0,0.9446166361602603,5
+170,33,1.0,0.9474140736221272,1
+171,33,1.0,0.9353859060402684,2
+172,33,1.0,0.9275538946512101,3
+173,33,1.0,0.9507702867602197,4
+174,33,1.0,0.9338473662802522,5
+175,34,1.0,0.9373426573426573,1
+176,34,1.0,0.9314685314685315,2
+177,34,1.0,0.9397202797202797,3
+178,34,1.0,0.947972027972028,4
+179,34,1.0,0.9370629370629371,5
+180,35,1.0,0.9574825174825174,1
+181,35,1.0,0.9462937062937063,2
+182,35,1.0,0.9531468531468532,3
+183,35,1.0,0.9486713286713286,4
+184,35,1.0,0.9565034965034964,5
+185,36,1.0,0.932867132867133,1
+186,36,1.0,0.9324475524475526,2
+187,36,1.0,0.9489510489510489,3
+188,36,1.0,0.939020979020979,4
+189,36,1.0,0.947132867132867,5
+190,37,1.0,0.9166377418202236,1
+191,37,1.0,0.9277265070695727,2
+192,37,1.0,0.9159384411209229,3
+193,37,1.0,0.9346061967229851,4
+194,37,1.0,0.9374100352202543,5
+195,38,1.0,0.9275866469297126,1
+196,38,1.0,0.9277265070695727,2
+197,38,1.0,0.9315160022459293,3
+198,38,1.0,0.9281460874891532,4
+199,38,1.0,0.9230978510540554,5
+200,39,1.0,0.9298310448675412,1
+201,39,1.0,0.9310964218263489,2
+202,39,1.0,0.9385355520392016,3
+203,39,1.0,0.9247761727323771,4
+204,39,1.0,0.9365708743810934,5
+205,40,1.0,0.9236378889566809,1
+206,40,1.0,0.9255958918039455,2
+207,40,1.0,0.9222391702257473,3
+208,40,1.0,0.9307707952003254,4
+209,40,1.0,0.9331482611348384,5
+210,41,1.0,0.9404209884075655,1
+211,41,1.0,0.9493720764693919,2
+212,41,1.0,0.9325889770185073,3
+213,41,1.0,0.9335677242220867,4
+214,41,1.0,0.9384629855603009,5
+215,42,1.0,0.9482529997966238,1
+216,42,1.0,0.9472742525930444,2
+217,42,1.0,0.9427984543420785,3
+218,42,1.0,0.9405608094366483,4
+219,42,1.0,0.9409802725238966,5
+220,43,1.0,0.939022269676632,1
+221,43,1.0,0.9358053691275167,2
+222,43,1.0,0.9304911531421598,3
+223,43,1.0,0.9395820622330691,4
+224,43,1.0,0.9500711816148057,5
+225,44,1.0,0.9239160839160839,1
+226,44,1.0,0.9377622377622377,2
+227,44,1.0,0.9423776223776223,3
+228,44,1.0,0.9404195804195804,4
+229,44,1.0,0.9432167832167832,5
+230,45,1.0,0.9179020979020979,1
+231,45,1.0,0.9234965034965035,2
+232,45,1.0,0.9353846153846155,3
+233,45,1.0,0.940979020979021,4
+234,45,1.0,0.9331468531468532,5
+235,46,1.0,0.9300699300699301,1
+236,46,1.0,0.9388811188811188,2
+237,46,1.0,0.9402797202797203,3
+238,46,1.0,0.938041958041958,4
+239,46,1.0,0.9360839160839162,5
+240,47,1.0,0.9528543719054668,1
+241,47,1.0,0.9616987392169873,2
+242,47,1.0,0.9513092746669389,3
+243,47,1.0,0.9542596090041345,4
+244,47,1.0,0.9608595783778265,5
+245,48,1.0,0.9292716043081006,1
+246,48,1.0,0.9316558623857895,2
+247,48,1.0,0.9379694757796948,3
+248,48,1.0,0.9407799499770303,4
+249,48,1.0,0.9309565616864888,5
+250,49,1.0,0.9171971823796642,1
+251,49,1.0,0.9267474860905519,2
+252,49,1.0,0.9230978510540554,3
+253,49,1.0,0.9215527538155276,4
+254,49,1.0,0.9208534531162267,5
+255,50,1.0,0.9450360992475086,1
+256,50,1.0,0.9500711816148057,2
+257,50,1.0,0.9507702867602197,3
+258,50,1.0,0.9525884685784014,4
+259,50,1.0,0.9558053691275168,5
+260,51,1.0,0.9286729713239781,1
+261,51,1.0,0.9264348179784421,2
+262,51,1.0,0.9348266219239373,3
+263,51,1.0,0.9358058775676227,4
+264,51,1.0,0.9332880821639211,5
+265,52,1.0,0.9426586333129957,1
+266,52,1.0,0.9299313605857229,2
+267,52,1.0,0.9388824486475492,3
+268,52,1.0,0.9351062639821028,4
+269,52,1.0,0.9391620907057149,5
+270,53,1.0,0.9374842383567216,1
+271,53,1.0,0.9432184258694327,2
+272,53,1.0,0.941260423022168,3
+273,53,1.0,0.934407158836689,4
+274,53,1.0,0.936784624771202,5
+275,54,1.0,0.9388811188811188,1
+276,54,1.0,0.9358041958041957,2
+277,54,1.0,0.9349650349650349,3
+278,54,1.0,0.946013986013986,4
+279,54,1.0,0.9391608391608393,5
+280,55,1.0,0.9446153846153847,1
+281,55,1.0,0.9344055944055945,2
+282,55,1.0,0.9388811188811188,3
+283,55,1.0,0.9366433566433569,4
+284,55,1.0,0.9418181818181817,5
+285,56,1.0,0.9184615384615384,1
+286,56,1.0,0.928951048951049,2
+287,56,1.0,0.9278321678321678,3
+288,56,1.0,0.9307692307692307,4
+289,56,1.0,0.9345454545454546,5
+290,57,1.0,0.943870144454086,1
+291,57,1.0,0.9374166709203205,2
+292,57,1.0,0.9391016282987086,3
+293,57,1.0,0.9344663365831248,4
+294,57,1.0,0.9374166709203205,5
+295,58,1.0,0.9326348833648104,1
+296,58,1.0,0.929691184727681,2
+297,58,1.0,0.9292716043081006,3
+298,58,1.0,0.929551324587821,4
+299,58,1.0,0.9484988004696034,5
+300,59,1.0,0.938955132458782,1
+301,59,1.0,0.9398009289980094,2
+302,59,1.0,0.933627175743964,3
+303,59,1.0,0.9403603695574497,4
+304,59,1.0,0.9409198101168904,5
+305,60,1.0,0.9167846247712019,1
+306,60,1.0,0.931609721374822,2
+307,60,1.0,0.9240573520439291,3
+308,60,1.0,0.9320296929021762,4
+309,60,1.0,0.9339876957494407,5
+310,61,1.0,0.9523093349603418,1
+311,61,1.0,0.952169005491153,2
+312,61,1.0,0.9317495424039047,3
+313,61,1.0,0.946994610534879,4
+314,61,1.0,0.9525889770185073,5
+315,62,1.0,0.9439175310148464,1
+316,62,1.0,0.9372040878584503,2
+317,62,1.0,0.9338473662802522,3
+318,62,1.0,0.9444768151311775,4
+319,62,1.0,0.9481131787675411,5
+320,63,1.0,0.925875533862111,1
+321,63,1.0,0.9321695139312589,2
+322,63,1.0,0.9276937156802929,3
+323,63,1.0,0.9345469798657717,4
+324,63,1.0,0.9325889770185073,5
+325,64,1.0,0.9380419580419581,1
+326,64,1.0,0.9244755244755244,2
+327,64,1.0,0.9413986013986013,3
+328,64,1.0,0.9443356643356643,4
+329,64,1.0,0.9481118881118881,5
+330,65,1.0,0.9290909090909092,1
+331,65,1.0,0.9222377622377622,2
+332,65,1.0,0.9264335664335664,3
+333,65,1.0,0.9286713286713286,4
+334,65,1.0,0.927972027972028,5
+335,66,1.0,0.9341258741258741,1
+336,66,1.0,0.9313286713286713,2
+337,66,1.0,0.9334265734265734,3
+338,66,1.0,0.930909090909091,4
+339,66,1.0,0.9346853146853146,5
+340,67,1.0,0.9205670971364401,1
+341,67,1.0,0.9281460874891532,2
+342,67,1.0,0.9277265070695727,3
+343,67,1.0,0.9171971823796642,4
+344,67,1.0,0.9264611301107653,5
+345,68,1.0,0.9448491654331069,1
+346,68,1.0,0.9442897248736664,2
+347,68,1.0,0.9490648767291103,3
+348,68,1.0,0.950883058547292,4
+349,68,1.0,0.949198101168904,5
+350,69,1.0,0.9348859170027053,1
+351,69,1.0,0.9351656372824256,2
+352,69,1.0,0.9348859170027053,3
+353,69,1.0,0.9388152723189218,4
+354,69,1.0,0.9400806492777297,5
+355,70,1.0,0.9468547895057962,1
+356,70,1.0,0.9451764287166972,2
+357,70,1.0,0.9471344315639617,3
+358,70,1.0,0.9460158633312995,4
+359,70,1.0,0.9507713036404312,5
+360,71,1.0,0.9380435224730527,1
+361,71,1.0,0.9400015253203172,2
+362,71,1.0,0.9381838519422412,3
+363,71,1.0,0.9311907667276795,4
+364,71,1.0,0.93790370144397,5
+365,72,1.0,0.9304906447020541,1
+366,72,1.0,0.9250360992475086,2
+367,72,1.0,0.9313300793166565,3
+368,72,1.0,0.9310499288183852,4
+369,72,1.0,0.9279733577384583,5
+370,73,1.0,0.9400010168802114,1
+371,73,1.0,0.925875533862111,2
+372,73,1.0,0.9355257270693512,3
+373,73,1.0,0.9304906447020541,4
+374,73,1.0,0.9246166361602602,5
+375,74,1.0,0.9413986013986014,1
+376,74,1.0,0.9461538461538462,2
+377,74,1.0,0.9516083916083915,3
+378,74,1.0,0.9475524475524475,4
+379,74,1.0,0.9395804195804196,5
+380,75,1.0,0.9306293706293706,1
+381,75,1.0,0.9359440559440559,2
+382,75,1.0,0.9317482517482516,3
+383,75,1.0,0.9274125874125875,4
+384,75,1.0,0.9338461538461538,5
+385,76,1.0,0.9413986013986013,1
+386,76,1.0,0.936923076923077,2
+387,76,1.0,0.9321678321678323,3
+388,76,1.0,0.9372027972027972,4
+389,76,1.0,0.940979020979021,5
+390,77,1.0,0.9148129243019752,1
+391,77,1.0,0.9257618294114645,2
+392,77,1.0,0.9430309836149252,3
+393,77,1.0,0.9365775100811596,4
+394,77,1.0,0.9442963605737329,5
+395,78,1.0,0.9254821091317442,1
+396,78,1.0,0.924636312592517,2
+397,78,1.0,0.9302506252871215,3
+398,78,1.0,0.9278663672094328,4
+399,78,1.0,0.9325016589250166,5
+400,79,1.0,0.9430309836149252,1
+401,79,1.0,0.9326415190648768,2
+402,79,1.0,0.9385355520392016,3
+403,79,1.0,0.9489250165892502,4
+404,79,1.0,0.9385355520392016,5
+405,80,1.0,0.9172040878584503,1
+406,80,1.0,0.9230786048403498,2
+407,80,1.0,0.9240573520439291,3
+408,80,1.0,0.9243369941020947,4
+409,80,1.0,0.9166448037421192,5
+410,81,1.0,0.9420993491966646,1
+411,81,1.0,0.9345469798657717,2
+412,81,1.0,0.9366448037421192,3
+413,81,1.0,0.9455958918039454,4
+414,81,1.0,0.936225340654871,5
+415,82,1.0,0.9300711816148057,1
+416,82,1.0,0.9374837299166159,2
+417,82,1.0,0.9384624771201954,3
+418,82,1.0,0.9432179174293268,4
+419,82,1.0,0.9506304657311369,5
+420,83,1.0,0.9219595281675818,1
+421,83,1.0,0.9257357128330281,2
+422,83,1.0,0.9247569656294489,3
+423,83,1.0,0.9290924344112264,4
+424,83,1.0,0.9278335367093756,5
+425,84,1.0,0.9135664335664336,1
+426,84,1.0,0.9246153846153846,2
+427,84,1.0,0.9253146853146853,3
+428,84,1.0,0.9309090909090909,4
+429,84,1.0,0.9184615384615384,5
+430,85,1.0,0.9384615384615385,1
+431,85,1.0,0.9422377622377622,2
+432,85,1.0,0.9327272727272727,3
+433,85,1.0,0.9342657342657342,4
+434,85,1.0,0.9483916083916084,5
+435,86,1.0,0.9541258741258741,1
+436,86,1.0,0.9588811188811189,2
+437,86,1.0,0.9446153846153847,3
+438,86,1.0,0.9594405594405595,4
+439,86,1.0,0.9581818181818181,5
+440,87,1.0,0.9316558623857895,1
+441,87,1.0,0.9386754121790618,2
+442,87,1.0,0.9379761114797611,3
+443,87,1.0,0.9393813485784288,4
+444,87,1.0,0.9485054361696696,5
+445,88,1.0,0.935585217702006,1
+446,88,1.0,0.9375498953601143,2
+447,88,1.0,0.9312362819662089,3
+448,88,1.0,0.9458348221121944,4
+449,88,1.0,0.9423250472155582,5
+450,89,1.0,0.9353121331223522,1
+451,89,1.0,0.9294181001480272,2
+452,89,1.0,0.9389617681588485,3
+453,89,1.0,0.9333474554642438,4
+454,89,1.0,0.944436220713593,5
+455,90,1.0,0.9324486475493187,1
+456,90,1.0,0.9335677242220867,2
+457,90,1.0,0.925875533862111,3
+458,90,1.0,0.9437777099857636,4
+459,90,1.0,0.93272879804759,5
+460,91,1.0,0.9286724628838723,1
+461,91,1.0,0.9281131787675412,2
+462,91,1.0,0.937343908887533,3
+463,91,1.0,0.9299313605857229,4
+464,91,1.0,0.9391620907057149,5
+465,92,1.0,0.934546471425666,1
+466,92,1.0,0.9359451901565995,2
+467,92,1.0,0.9384629855603009,3
+468,92,1.0,0.9345469798657717,4
+469,92,1.0,0.9481131787675411,5
+470,93,1.0,0.9465751474476306,1
+471,93,1.0,0.9439175310148464,2
+472,93,1.0,0.9448967866585317,3
+473,93,1.0,0.9532885906040268,4
+474,93,1.0,0.9468547895057962,5
+475,94,1.0,0.9380419580419581,1
+476,94,1.0,0.9360839160839161,2
+477,94,1.0,0.9432167832167832,3
+478,94,1.0,0.9483916083916083,4
+479,94,1.0,0.943916083916084,5
+480,95,1.0,0.9418181818181817,1
+481,95,1.0,0.946013986013986,2
+482,95,1.0,0.9292307692307693,3
+483,95,1.0,0.9253146853146853,4
+484,95,1.0,0.9311888111888111,5
+485,96,1.0,0.9468531468531467,1
+486,96,1.0,0.9422377622377622,2
+487,96,1.0,0.9434965034965035,3
+488,96,1.0,0.9528671328671329,4
+489,96,1.0,0.9353846153846153,5
+490,97,1.0,0.9375565310601806,1
+491,97,1.0,0.9379761114797611,2
+492,97,1.0,0.9475264151906487,3
+493,97,1.0,0.9476596396304425,4
+494,97,1.0,0.9475264151906487,5
+495,98,1.0,0.9315160022459293,1
+496,98,1.0,0.9186024194783319,2
+497,98,1.0,0.9346061967229851,3
+498,98,1.0,0.9386754121790618,4
+499,98,1.0,0.9346061967229851,5
