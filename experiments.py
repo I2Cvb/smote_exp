@@ -1,5 +1,6 @@
 import os
 from collections import defaultdict
+from collections import Counter
 
 import numpy as np
 import pandas as pd
@@ -56,6 +57,13 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
     X_test, y_test = safe_indexing(X, test_idx), y[test_idx]
 
     for param in param_grid:
+        multiplier = param['smote__sampling_strategy']
+        def resampling(y):
+            counter = Counter(y)
+            minority_class = min(counter, key=counter.get)
+            return {minority_class: int(counter[minority_class] +
+                                        counter[minority_class] * multiplier)}
+        param['smote__sampling_strategy'] = resampling
         pipe_cv = clone(pipe)
         pipe_cv.set_params(**param)
         pipe_cv.fit(X_train, y_train)
@@ -79,18 +87,19 @@ def _merge_dicts(d1, d2):
         d1[k] += d2[k]
     return d1
 
-for name, func_dataset in [('adult', load_adult),
-                           ('cover_type', load_cover_type),
-                           ('diabetes', load_diabetes),
-                           ('mammography', load_mammography),
-                           ('oil', load_oil),
-                           ('phoneme', load_phoneme),
-                           ('satimage', load_satimage)]:
+for name, func_dataset, factor in [
+        ('adult', load_adult, [0.5, 1, 2, 3, 4, 5]),
+        ('cover_type', load_cover_type, [1, 2, 3, 4, 5]),
+        ('diabetes', load_diabetes, [1]),
+        ('mammography', load_mammography, [1, 2, 3, 4, 5]),
+        ('oil', load_oil, [1, 2, 3, 4, 5]),
+        ('phoneme', load_phoneme, [1, 2]),
+        ('satimage', load_satimage, [1, 2, 3, 4 ,5])]:
     X, y = func_dataset()
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
     param_grid = ParameterGrid(
-        {'smote__sampling_strategy': np.arange(0.4, 1.0, 0.05)}
+        {'smote__sampling_strategy': np.array(factor)}
     )
     cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=10, random_state=42)
 
@@ -108,12 +117,3 @@ for name, func_dataset in [('adult', load_adult),
 
     cv_results = pd.DataFrame(cv_results)
     cv_results.to_csv(os.path.join('results', name + '.csv'))
-
-# ma = cv_results.groupby('smote__sampling_strategy')[['test_score']].mean()
-# mstd = cv_results.groupby('smote__sampling_strategy')[['test_score']].std()
-
-# plt.plot(ma.index, ma)
-# plt.fill_between(mstd.index,
-#                  ma.values.ravel() - mstd.values.ravel(),
-#                  ma.values.ravel() + mstd.values.ravel(),
-#                  alpha=0.2)
