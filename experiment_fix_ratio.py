@@ -103,7 +103,7 @@ for name, func_dataset in [
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
     param_grid = ParameterGrid(
-        {'smote__sampling_strategy': np.arange(0.5, 1.01, 0.05)}
+        {'smote__sampling_strategy': np.arange(0.6, 1, 0.05)}
     )
     cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=50, random_state=42)
 
