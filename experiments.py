@@ -71,17 +71,19 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
         pipe_cv.set_params(**param)
 
         pipe_cv.fit(X_train, y_train)
-        y_pred_train = pipe_cv.predict_proba(X_train)
-        y_pred_test = pipe_cv.predict_proba(X_test)
+        y_pred_proba_train = pipe_cv.predict_proba(X_train)
+        y_pred_proba_test = pipe_cv.predict_proba(X_test)
+        y_pred_train = pipe_cv.predict(X_train)
+        y_pred_test = pipe_cv.predict(X_test)
 
         cv_results['auc_train_score'].append(
-            roc_auc_score(y_train, y_pred_train[:, 1]))
+            roc_auc_score(y_train, y_pred_proba_train[:, 1]))
         cv_results['auc_test_score'].append(
-            roc_auc_score(y_test, y_pred_test[:, 1]))
+            roc_auc_score(y_test, y_pred_proba_test[:, 1]))
         cv_results['bacc_train_score'].append(
-            balanced_accuracy_score(y_train, y_pred_train[:, 1]))
+            balanced_accuracy_score(y_train, y_pred_train))
         cv_results['bacc_test_score'].append(
-            balanced_accuracy_score(y_test, y_pred_test[:, 1]))
+            balanced_accuracy_score(y_test, y_pred_test))
 
         cv_results['cv_idx'].append(cv_idx)
 
