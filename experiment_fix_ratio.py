@@ -8,15 +8,17 @@ import matplotlib.pyplot as plt
 from joblib import Parallel, delayed
 
 from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import make_pipeline
+from imblearn.pipeline import Pipeline
 
 from sklearn.base import clone
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import ParameterGrid
 from sklearn.model_selection import RepeatedStratifiedKFold
+from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.utils import safe_indexing
 
@@ -103,24 +105,35 @@ for name, func_dataset in [
         ('phoneme', load_phoneme),
         ('satimage', load_satimage)]:
     X, y = func_dataset()
-    pipe = make_pipeline(SMOTE(random_state=42),
-                         DecisionTreeClassifier(random_state=42))
-    param_grid = ParameterGrid(
-        {'smote__sampling_strategy': np.arange(0.1, 1, 0.05)}
-    )
-    cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=50, random_state=42)
 
-    results = Parallel(n_jobs=-1)(
-        delayed(_fit_score)(pipe, param_grid, X, y,
-                            train_idx, test_idx, cv_idx)
-        for cv_idx, (train_idx, test_idx) in enumerate(cv.split(X, y)))
+    for clf in [DecisionTreeClassifier(random_state=42),
+                LogisticRegression(random_state=42)]:
 
-    cv_results = results[-1]
-    for res in results[:-1]:
-        cv_results = _merge_dicts(cv_results, res)
+        pipe = Pipeline(steps=[
+            ('standardscaler', StandardScaler()),
+            ('smote', SMOTE(random_state=42)),
+            ('clf', clf)
+        ])
 
-    if not os.path.exists('results'):
-        os.makedirs('results')
+        param_grid = ParameterGrid(
+            {'smote__sampling_strategy': np.arange(0.1, 1, 0.05)}
+        )
+        cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=50,
+                                     random_state=42)
 
-    cv_results = pd.DataFrame(cv_results)
-    cv_results.to_csv(os.path.join('results', name + '_fix_ratio.csv'))
+        results = Parallel(n_jobs=-1)(
+            delayed(_fit_score)(pipe, param_grid, X, y,
+                                train_idx, test_idx, cv_idx)
+            for cv_idx, (train_idx, test_idx) in enumerate(cv.split(X, y)))
+
+        cv_results = results[-1]
+        for res in results[:-1]:
+            cv_results = _merge_dicts(cv_results, res)
+
+        if not os.path.exists('results'):
+            os.makedirs('results')
+
+        cv_results = pd.DataFrame(cv_results)
+        cv_results.to_csv(os.path.join('results',
+                                       name + '_' + clf.__class__.__name__ +
+                                       '_fix_ratio.csv'))
