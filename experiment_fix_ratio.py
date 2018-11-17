@@ -61,7 +61,10 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
         pipe_cv = clone(pipe)
         pipe_cv.set_params(**param)
 
-        pipe_cv.fit(X_train, y_train)
+        try:
+            pipe_cv.fit(X_train, y_train)
+        except ValueError:
+            continue
         y_pred_proba_train = pipe_cv.predict_proba(X_train)
         y_pred_proba_test = pipe_cv.predict_proba(X_test)
         y_pred_train = pipe_cv.predict(X_train)
@@ -103,7 +106,7 @@ for name, func_dataset in [
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
     param_grid = ParameterGrid(
-        {'smote__sampling_strategy': np.arange(0.6, 1, 0.05)}
+        {'smote__sampling_strategy': np.arange(0.1, 1, 0.05)}
     )
     cv = RepeatedStratifiedKFold(n_splits=10, n_repeats=50, random_state=42)
 
