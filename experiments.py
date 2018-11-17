@@ -11,6 +11,7 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import make_pipeline
 
 from sklearn.base import clone
+from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
@@ -58,23 +59,32 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
 
     for param in param_grid:
         multiplier = param['smote__sampling_strategy']
+
         def resampling(y):
             counter = Counter(y)
             minority_class = min(counter, key=counter.get)
             return {minority_class: int(counter[minority_class] +
                                         counter[minority_class] * multiplier)}
+
         param['smote__sampling_strategy'] = resampling
         pipe_cv = clone(pipe)
         pipe_cv.set_params(**param)
+
         pipe_cv.fit(X_train, y_train)
-        y_pred = pipe_cv.predict_proba(X_train)
-        train_score = roc_auc_score(y_train, y_pred[:, 1])
-        y_pred = pipe_cv.predict_proba(X_test)
-        test_score = roc_auc_score(y_test, y_pred[:, 1])
+        y_pred_train = pipe_cv.predict_proba(X_train)
+        y_pred_test = pipe_cv.predict_proba(X_test)
+
+        cv_results['auc_train_score'].append(
+            roc_auc_score(y_train, y_pred_train[:, 1]))
+        cv_results['auc_test_score'].append(
+            roc_auc_score(y_test, y_pred_test[:, 1]))
+        cv_results['bacc_train_score'].append(
+            balanced_accuracy_score(y_train, y_pred_train[:, 1]))
+        cv_results['bacc_test_score'].append(
+            balanced_accuracy_score(y_test, y_pred_test[:, 1]))
 
         cv_results['cv_idx'].append(cv_idx)
-        cv_results['train_score'].append(train_score)
-        cv_results['test_score'].append(test_score)
+
         for k, v in param.items():
             if k == 'smote__sampling_strategy':
                 cv_results[k].append(multiplier)
@@ -90,6 +100,7 @@ def _merge_dicts(d1, d2):
         d1[k] += d2[k]
     return d1
 
+
 for name, func_dataset, factor in [
         ('adult', load_adult, [0, 0.5, 1, 2, 3, 4, 5]),
         ('cover_type', load_cover_type, [0, 0.5, 1, 2, 3, 4, 5]),
@@ -97,7 +108,7 @@ for name, func_dataset, factor in [
         ('mammography', load_mammography, [0, 0.5, 1, 2, 3, 4, 5]),
         ('oil', load_oil, [0, 0.5, 1, 2, 3, 4, 5]),
         ('phoneme', load_phoneme, [0, 0.5, 1, 2, 3, 4, 5]),
-        ('satimage', load_satimage, [0, 0.5, 1, 2, 3, 4 , 5])]:
+        ('satimage', load_satimage, [0, 0.5, 1, 2, 3, 4, 5])]:
     X, y = func_dataset()
     pipe = make_pipeline(SMOTE(random_state=42),
                          DecisionTreeClassifier(random_state=42))
