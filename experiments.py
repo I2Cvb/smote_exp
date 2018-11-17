@@ -60,6 +60,13 @@ def _fit_score(pipe, param_grid, X, y, train_idx, test_idx, cv_idx):
     for param in param_grid:
         multiplier = param['smote__sampling_strategy']
 
+        counter = Counter(y_train)
+        minority_class = min(counter, key=counter.get)
+        majority_class = max(counter, key=counter.get)
+        n_samples_minority = int(counter[minority_class] +
+                                 counter[minority_class] * multiplier)
+        cv_results['ratio'] = counter[majority_class] / n_samples_minority
+
         def resampling(y):
             counter = Counter(y)
             minority_class = min(counter, key=counter.get)
